@@ -1,0 +1,88 @@
+body {
+	/*background:-webkit-repeating-linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);*/
+    background-image: url(https://t4.ftcdn.net/jpg/06/55/50/69/360_F_655506911_1p13PsGKM93SuCePkLUcd75TW1Bzu4jg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.container{
+    border: none;
+    width: 40%;
+    height: auto;
+    margin: 0 auto; /*centrar elemento. top_bottom: cero y left_right: auto*/
+    background: white;
+    border-radius: 5px;
+}
+.header {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 5px 15px 5px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.image-perfil{
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    /*border: 2.5px solid #e1306c; border cuadrado rosa*/
+    /*border: 4px solid;
+    border-image: linear-gradient( #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    border-image-slice: 1;
+    box-shadow: 0 2px 2px gray;*/
+    border-left: 4px solid #405de6;
+    border-top: 4px solid #833ab4;
+    border-bottom: 4px solid #fd1d1d;
+    border-right: 4px solid #ffdc80;
+    border-radius: 50%;  
+    
+}
+.usuario{
+	margin-right: auto;
+	margin-left: 10px;
+    cursor: pointer;
+}
+.btn{
+    background: none;
+    border-radius: 4px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.body-post img{
+    width: 100%;
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+.parrafos{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    font-size: 14px;
+}
+.pasar-img{
+    display: flex;
+    justify-content: center;
+}
+i:hover{
+    color: white;
+    cursor: pointer;
+    background: red;
+}
+.hashtag{
+    color:blue
+}
